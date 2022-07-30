@@ -1,6 +1,7 @@
 # BitKit
 
-![bitkit](https://user-images.githubusercontent.com/81036521/181883714-8ff88c3b-1c2e-4418-90c1-3f6891348041.JPG)
+![bitkit](https://user-images.githubusercontent.com/81036521/181904178-f05cdacb-d5a2-4c8a-a714-3af5438a517f.JPG)
+
 
 #
 ## Introduction.
