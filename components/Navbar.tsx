@@ -10,7 +10,7 @@ import { GoogleLogin, googleLogout  } from '@react-oauth/google';
 import useAuthStore from '../store/authStore';
 import { IUser } from '../types';
 import { createOrGetUser } from '../utils';
-import Logo from '../utils/tiktik-logo.png';
+import Logo from '../utils/Bitkit.png';
 
 const Navbar = () => {
   const [user, setUser] = useState<IUser | null>();
