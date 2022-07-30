@@ -6,7 +6,7 @@
 ## Introduction.
 
 This is a Full Stack Application using Next.js, Node.js, sanity the app is called BitKit and it is a simple short video sharing social media platform that allows users to post photo, video, gif and etc and also allows user to like, comment, search and user can see who have posted the posts this project have many more different feature.
-
+#
 ## Installation and Setup.
 
  ```bash
@@ -34,3 +34,4 @@ FOR CLIENT ID of google login: create your goole credentials in console.google.c
 I am a learner so my readme is a bit messy
 please change the credencials of mine to yours i may change the setup of my dashboar and it may lead an error in your project
 Thank You
+#
