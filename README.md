@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BitKit
 
-## Getting Started
+![bitkit](https://user-images.githubusercontent.com/81036521/181883714-8ff88c3b-1c2e-4418-90c1-3f6891348041.JPG)
 
-First, run the development server:
+#
+## Introduction.
 
-```bash
-npm run dev
-# or
-yarn dev
+This is a Full Stack Application using Next.js, Node.js, sanity the app is called BitKit and it is a simple short video sharing social media platform that allows users to post photo, video, gif and etc and also allows user to like, comment, search and user can see who have posted the posts this project have many more different feature.
+
+## Installation and Setup.
+
+ ```bash
+For instalation of packages run: npm i or npm install
+# and
+To run the project run: npm run dev
+# and
+to run sanity-backend run:
+1. open terminal in sanity-backend folder
+2. to open in sanity-backend folder run: cd sanity-backend
+3.to run sanity run: sanity start
+# and 
+change the .env.developement credenditials of:
+NEXT_PUBLIC_SANITY_TOKEN, (You will get sanity token from your projects sanity dashboard In API in Tokens)
+NEXT_PUBLIC_GOOGLE_API_TOKEN, (You will get this from googles cloud yours projects CLIIENT ID)
+# and
+changes:
+change your project id in utils > client.ts: projectId: '<YOUR_PROJECTID>', (You will get this from yours projects sanity dashboard).
+
+CORS ORIGINS : changes CORS origin in your sanity dashboars in API in CORS origins and also in the google console.google.cloud your apps CORS
+
+FOR CLIENT ID of google login: create your goole credentials in console.google.cloud create your OAuth client and copy thee google client id and paste it in env.developement in NEXT_PUBLIC_GOOGLE_API_TOKEN.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I am a learner so my readme is a bit messy
+please change the credencials of mine to yours i may change the setup of my dashboar and it may lead an error in your project
+Thank You
